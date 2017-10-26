@@ -2,9 +2,48 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Uso JQuery</title>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript">
+		/*para usar a biblioteca de JQuery é necessario usar caracter especial p/ fazer a chmada: ($)*/
+
+		$(document).ready(function(){
+			$('#principal').append('<p>Texto Novo</p>');
+			$('#primeiro').click(function () {
+				$('div').append('<h2>Deu certoo!</h2>')
+			});
+		});
+
+
+
+	</script>
 </head>
 <body>
+	<header>
+
+	<h1>Página com JQuery</h1>
 	
+	</header>
+
+<main>
+	
+	<section id="principal">
+		<div>
+		<button id="primeiro">primeiro</button><br>
+
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt autem nostrum eum dolorem mollitia non illo omnis eaque quisquam nisi. Aut nihil odio assumenda explicabo, voluptatem officia at quo temporibus.</div>
+			<div>Consectetur dicta sunt tenetur, voluptates natus. Animi amet quisquam expedita, asperiores eveniet ipsum labore corporis, dolorem similique corrupti neque est unde tempore cum repellat a veniam, aliquid vitae iure facere?</div>
+			<div>Ducimus at similique sunt quisquam, iusto amet aspernatur. Facilis incidunt veniam neque corporis mollitia consectetur perferendis doloremque itaque in consequatur velit, ab ut tenetur ipsa necessitatibus quis dolor exercitationem quibusdam!</div>
+		</div>
+		<div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aliquam necessitatibus cumque mollitia voluptatum, maxime perferendis quam ipsam commodi neque deserunt error pariatur ipsum atque natus nulla quibusdam. Natus, eligendi.</div>
+			<div>Nulla nesciunt ex nemo deleniti omnis, similique quis eum accusamus reiciendis accusantium? Molestiae nulla culpa nesciunt cum voluptatum adipisci deserunt nisi error voluptate. Ullam culpa a, repudiandae nisi, libero cupiditate.</div>
+			<div>Sapiente tenetur assumenda cupiditate sed, vero at laudantium, eos incidunt dolorem! Sint aperiam, voluptatem placeat, quod rerum tenetur deleniti nesciunt, assumenda vel ipsa sunt ex quam eaque iure recusandae. Velit!</div>
+		</div>
+	</section>
+
+</main>
+
+
 </body>
 </html>
