@@ -1,0 +1,11 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	padding: 5% 0px;
+	background-image: url("https://ak3.picdn.net/shutterstock/videos/6693143/thumb/1.jpg?i10c=img.resize(height:160)"); 
+	background-size: 100%;
+	background-position: 0px -200px;
+}
